@@ -65,7 +65,7 @@ function setup() {
   restart = createSprite(width/2,height/2);
   restart.addImage(restartImg);
   
-  sun = createSprite(width-90,100,10,10);
+  sun = createSprite(width-30,100,10,10);
   sun.addImage(sunImage);
   sun.scale = 0.3;       
  
