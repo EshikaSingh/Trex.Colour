@@ -65,12 +65,12 @@ function setup() {
   restart = createSprite(width/2 -50,height/2);
   restart.addImage(restartImg);
   
-  sun = createSprite(width-200,100,10,10);
+  sun = createSprite(100,100,10,10);
   sun.addImage(sunImage);
   sun.scale = 0.3;       
  
-  gameOver.scale = 0.7;
-  restart.scale = 0.7;
+  gameOver.scale = 0.5;
+  restart.scale = 0.5;
   
   invisibleGround = createSprite(200,height -15,400,10);
   invisibleGround.visible = false;
