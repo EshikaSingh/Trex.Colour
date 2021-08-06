@@ -59,13 +59,13 @@ function setup() {
   trex.addAnimation("running", trex_running);
   trex.addAnimation("collided", trex_collided);
   
-  gameOver = createSprite(width/2,height/2- 50);
+  gameOver = createSprite(width/2 -50,height/2- 50);
   gameOver.addImage(gameOverImg);
   
-  restart = createSprite(width/2,height/2);
+  restart = createSprite(width/2 -50,height/2);
   restart.addImage(restartImg);
   
-  sun = createSprite(width-30,100,10,10);
+  sun = createSprite(width-200,100,10,10);
   sun.addImage(sunImage);
   sun.scale = 0.3;       
  
